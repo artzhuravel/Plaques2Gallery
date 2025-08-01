@@ -7,10 +7,6 @@ def rotate(image):
     """
     Automatically rotates the input image based on its detected orientation.
 
-    Uses Tesseract's orientation script detection (OSD) to determine
-    the correct upright orientation of the text and applies the appropriate
-    rotation to align the text horizontally.
-
     Parameters
     ----------
     image : numpy.ndarray
