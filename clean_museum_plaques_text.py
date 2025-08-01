@@ -29,7 +29,7 @@ def clean_extracted_text(ocr_text, model):
         '3. If the text contains repetitions (e.g., "Mona Lisa, Da Vinci Mona Lisa, Da Vinci"), return only one clean instance.\n'
         '4. Remove all OCR noise, such as line breaks, symbols, or formatting artifacts.\n'
         '5. Preserve original characters in names (e.g., use German, Italian, French letters if needed). '
-        'If OCR has altered special characters (e.g., "é" → "e", "ö" → "o"), restore the original spelling only if it can be determined with certainty from context.\n'
+        'If OCR has altered special characters (e.g., "é" -> "e", "ö" -> "o"), restore the original spelling only if it can be determined with certainty from context.\n'
         '6. Do not explain, comment, or reason — return only the final result, exactly as instructed.\n\n'
         'Example:\n'
         'Input:\n'
