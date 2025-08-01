@@ -1,7 +1,7 @@
 # Plaques2Gallery
 Wherever I go, I try to explore the local art scene. Along with fairs, music festivals, and theater performances, I always make time to visit at least one art gallery or museum—ideally more.
 
-Since I’ve been traveling quite a lot over the past two years, I’ve encountered hundreds of artworks. Whenever a piece resonates with me, I want to capture that moment. But I quickly realized that photographing the artwork itself wasn’t very helpful -- without knowing the title or artist, those photos lacked context. So I started doing something more practical: I took pictures of the museum plaques that are usually displayed next to the artworks.
+Since I’ve been traveling quite a lot over the past two years, I’ve encountered hundreds of artworks. Whenever a piece resonates with me, I want to capture that moment. But I quickly realized that photographing the artwork itself wasn’t very helpful - without knowing the title or artist, those photos lacked context. So I started doing something more practical: I took pictures of the museum plaques that are usually displayed next to the artworks.
 
 This solved one problem but created another. Now my photo library is filled with images of plaques from museums around the world—each one informative, but completely detached from the visual memory that triggered my interest in the first place. Without the artwork itself, it’s hard to recall why I found a particular piece compelling.
 
@@ -21,4 +21,4 @@ Each successfully matched artwork is saved to disk and also recorded in a dictio
 - the museum it came from (if determinable),
 - and the source URL of the retrieved image.
 
-Even though I am sharing the code, it was created solely for my personal use - please, indulge the inaccuracies :)
+Even though I am sharing the code, it was created solely for my personal use - please, do not judge very strictly :)
