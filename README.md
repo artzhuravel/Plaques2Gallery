@@ -22,7 +22,7 @@ Each successfully matched artwork is saved to disk and also recorded in a dictio
 - the museum it came from (if determinable),
 - and the source URL of the retrieved image.
 
-Images of the museum plaques can be accessed via this link: [some link].
+Images of the museum plaques can be accessed via this link: https://drive.google.com/file/d/1H1zy3ZTO6ifsAMLCEdFP_aLyJtOTpcia/view?usp=sharing.
 
 All intermediate pipeline results are available at the following link: [some link].
 
