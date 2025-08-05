@@ -22,11 +22,12 @@ Each successfully matched artwork is saved to disk and also recorded in a dictio
 - the museum it came from (if determinable),
 - and the source URL of the retrieved image.
 
-Images of the museum plaques can be accessed via this link: https://drive.google.com/file/d/1H1zy3ZTO6ifsAMLCEdFP_aLyJtOTpcia/view?usp=sharing.
+Images of the museum plaques can be accessed via this link: https://drive.google.com/file/d/1H1zy3ZTO6ifsAMLCEdFP_aLyJtOTpcia/view?usp=sharing
 
-All intermediate pipeline results are available at the following link: [some link].
+All intermediate pipeline results are available at the following link: https://drive.google.com/drive/folders/1osaGwaLuin4FK0EJ4FtkWqKdhv1wTzCT?usp=sharing
 
-The results for the first batch can be viewed at the following link: [some link].
+The results at the moment when the first batch is processed can be viewed at the following link: https://drive.google.com/drive/folders/1rQnohPbec1yzm09i1X2RnVIoCfMJ-QNk?usp=sharing
+
 They have not been filtered to accurately reflect what the pipeline accomplished without human input. Some incorrect matches and missing entries remain. Eventually, I’ll need to manually upload missed paintings and correct mistakes. That said, the pipeline was never meant to produce perfect results — it serves as a preliminary automation step to reduce effort, though some manual refinement is still necessary.
 
 Also, wanted to make a short note that even though I am sharing the code, it was created solely for my personal use - please, do not judge very strictly :)
