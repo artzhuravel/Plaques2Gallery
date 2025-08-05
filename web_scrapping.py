@@ -170,7 +170,7 @@ async def get_img(page, base_url, img_name):
 
     if img_bytes:
         img_bytes, img_extension = convert_to_jpeg(img_bytes, img_extension)
-        img_path = f"final_results/extracted_images/{img_name}{img_extension}"
+        img_path = f"extracted_images/{img_name}{img_extension}"
         with open(img_path, "wb") as f:
             f.write(img_bytes)
         return img_path, img_url
