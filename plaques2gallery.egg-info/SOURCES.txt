@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+plaques2gallery/__init__.py
+plaques2gallery/clean_museum_plaques_text.py
+plaques2gallery/config.py
+plaques2gallery/ocr_text_extraction.py
+plaques2gallery/web_scraping.py
+plaques2gallery/web_search.py
+plaques2gallery.egg-info/PKG-INFO
+plaques2gallery.egg-info/SOURCES.txt
+plaques2gallery.egg-info/dependency_links.txt
+plaques2gallery.egg-info/requires.txt
+plaques2gallery.egg-info/top_level.txt

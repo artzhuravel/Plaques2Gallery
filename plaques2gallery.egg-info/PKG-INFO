@@ -1,3 +1,41 @@
+Metadata-Version: 2.4
+Name: plaques2gallery
+Version: 1.0.0
+Summary: Automated pipeline to match museum plaque photographs to artwork images
+Author: Plaques2Gallery Author
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/Plaques2Gallery
+Project-URL: Repository, https://github.com/yourusername/Plaques2Gallery
+Keywords: museum,art,ocr,web-scraping,image-recognition
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python>=4.5.0
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: pytesseract>=0.3.8
+Requires-Dist: Pillow>=9.0.0
+Requires-Dist: google-generativeai>=0.3.0
+Requires-Dist: google-api-python-client>=2.0.0
+Requires-Dist: playwright>=1.30.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: python-docx>=0.8.11
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Dynamic: license-file
+
 # Plaques2Gallery
 
 An automated pipeline that matches museum plaque photographs to artwork images using OCR, AI-powered text cleaning, and web scraping.
@@ -133,14 +171,6 @@ Each successfully matched artwork is recorded with:
 - The "largest image" heuristic doesn't always select the correct artwork
 
 Results may require manual review and correction for best accuracy.
-
-## Disclaimer
-
-This project was developed for personal use to automate artwork image collection from museum plaque photographs. While it works well for its intended purpose, please note:
-
-- **Web scraping behavior**: The scraper automatically accepts cookie consent dialogs in isolated, temporary browser sessions. No cookies persist after use. Review `plaques2gallery/config.py` to customize which buttons are clicked.
-- **Respect website terms**: Use responsibly and be mindful of website terms of service when scraping.
-- **No warranty**: This software is provided as-is for educational and personal use.
 
 ## License
 

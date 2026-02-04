@@ -1,0 +1,34 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project-specific
+intermediate_results/
+extracted_images/
+museum_plaques/
+final_results.json
+final_results.docx
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

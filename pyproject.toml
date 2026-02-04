@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plaques2gallery"
+version = "1.0.0"
+description = "Automated pipeline to match museum plaque photographs to artwork images"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Plaques2Gallery Author"}
+]
+keywords = ["museum", "art", "ocr", "web-scraping", "image-recognition"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+
+dependencies = [
+    "opencv-python>=4.5.0",
+    "numpy>=1.20.0",
+    "pytesseract>=0.3.8",
+    "Pillow>=9.0.0",
+    "google-generativeai>=0.3.0",
+    "google-api-python-client>=2.0.0",
+    "playwright>=1.30.0",
+    "aiohttp>=3.8.0",
+    "python-docx>=0.8.11",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/Plaques2Gallery"
+Repository = "https://github.com/yourusername/Plaques2Gallery"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["plaques2gallery*"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
